@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+}
+.sidebar{
+    width: 25%;
+    background-color: rgb(73,78,175);
+    color: whitesmoke;
+}
+
+.container{
+    /* height: 100vh; */
+    width: 75%;
+}
+
+.sidebar .header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+    position: relative;
+    padding: 5px;
+    left: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 50%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 50%;   
+}
+
+.title-txt{
+    position: relative;
+    left: 1%;
+    padding: 10px;
+    width: 70%;
+}
+.title-txt span{
+    position: relative;
+    left: 43%;
+    top: -63%;
+}
+
+.title-txt hr{
+    position: relative;
+    left: -18%;
+    border: 1px solid grey;
+}
+.sidebar-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar-container .item1{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item1{
+    outline: 1px solid black;
+}
+
+.item1{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item1:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item2:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item3:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item4:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item5:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item6:hover{
+    background: grey;
+    opacity: 30%;
+    cursor: pointer;
+}
+.item1 i{
+    background: transparent;
+}
+
+.item1 .icon{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -5%;
+}
+.item1 .icon img{
+    border-radius: 50%;
+    color: white;
+    width: 100%;
+}
+.item1 .icon-desc{
+    align-self: center;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    left: -15%;
+    top: -1%;
+}
+
+
+.sidebar-container .item2{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item2{
+    outline: 1px solid black;
+}
+
+.item2{
+    width: 99.5%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item2 .icon2{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -5%;
+}
+.item2 .icon2 img{
+    border-radius: 50%;
+    color: white;
+    width: 100%;
+}
+.item2 .icon-desc2{
+    align-self: center;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    left: -15%;
+    top: -1%;
+}
+
+.sidebar-container .item3{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item3{
+    outline: 1px solid black;
+}
+
+.item3{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.item3 .icon2{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -6%;
+}
+
+
+
+ .icon2{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -5%;
+}
+ .icon2 img{
+    border-radius: 50%;
+    color: white;
+    width: 100%;
+}
+ .icon-desc2{
+    align-self: center;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    left: -15%;
+    top: -1%;
+}
+
+
+.sidebar-container .item4{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item4{
+    outline: 1px solid black;
+}
+
+.item4{
+    width: 99.5%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item4 .icon2{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -2%;
+}
+
+
+.sidebar-container .item5{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item5{
+    outline: 1px solid black;
+}
+
+.item5{
+    width: 99.5%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+.item5 .icon2{
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    left: -11%;
+}
+
+.sidebar-container .item6{
+    display: flex;
+    justify-content: center;
+}
+.sidebar-container.item6{
+    outline: 1px solid black;
+}
+
+.item6{
+    width: 99.5%;
+}
+
+.container{
+    outline: 1px solid yellow;
+    width: 100%;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.form-container input[type = "date"]
+{   
+    width: 20%;
+    outline: 1px solid black;
+    border: none;
+    padding: 2px;
+    margin: 0px 12px;
+    column-gap: 10px;
+}
+.form-container input[type="time"]
+{
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0px 12px;
+    column-gap: 10px;
+}
+
+.form-container input[type="submit"]
+{
+    position: relative;
+    left: 2%;
+    top: 20%;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+    outline: 1px solid black;
+    border-radius: 8px;
+    background-color: orange;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-item1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right:12px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+@media(max-width:500px)
+{
+    .form-container input[type="submit"]
+    {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .form-container input[type="date"]
+    {
+        width: 80%;
+        margin-top: 5px;
+    }
+    .form-container input[type="time"]
+    {
+        width: 80%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .container
+    {
+        flex-wrap: wrap;
+    }
+    .card-item1{
+        width: 100%;
+    }
+
+    .sidebar{
+        width: 20%;
+    }
+
+
+}
